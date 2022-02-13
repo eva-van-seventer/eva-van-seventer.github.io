@@ -1,6 +1,6 @@
 
 
-  #heading{
+  #index-heading{
     color:  #D5D5CC;
     position: relative;
     
@@ -17,6 +17,27 @@
   
   
   }
+  #about-me-heading{
+    color: #D5D5CC;
+    position: absolute;
+    left: 500px;
+    padding: 5px 30px 10px 30px;
+    top: 30px;
+    width: 300px;
+    
+    text-align: center !important;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    -webkit-text-stroke-width: 1.5px;
+-webkit-text-stroke-color: #222A30;
+   
+    background-color:#2F483E;
+    border: 1.5px solid #7e7e6b;
+    margin: auto 0px;
+  
+  
+  
+  }
   
   #Space-Place:hover{color:#42253B;
     left: 32px; top:140px;
@@ -24,54 +45,47 @@
 
 
 }
-#about-me:hover{
+#index-about-me:hover{
   margin-left: 30px;
   color:#42253B;
 
 }
-#blogs:hover{
+#index-blogs:hover{
   margin-left: 30px;
   color:#42253B;}
 
 
  
       
-#background{
-  z-index: -99999 !important;
-  
- background-size: 100%;
- background-repeat: no-repeat;
- 
- 
-  
-  
 
+
+  
+#photo{
+  margin: auto;
+
+background:top;
+  display: block;
+  border: #7e7e6b solid thick;
+position: absolute;
+
+border-radius: 150px; 
+width: 250px; height: auto;  
+position: relative;
+margin-top: -100px;
+margin-right: 1000px;
+left: 1000px;
+ 
 }
 
-  
-  
 
-   #photo{
-    margin: auto;
-  display: block;
-  background:top;
-    
-    border: #7e7e6b solid thick;
-     position: relative;
-      width: 250px; height: auto;  
-      border-radius: 150px; 
-  
-      position: relative;
- margin-top: -100px;
- margin-right: 20px;
- 
-   
-    }
-    .main-text{
+
+
+    .index-main-text{
 
       
       font-size: 18pt;
-      color: #845A6D;position: absolute;
+      
+      position: absolute;
       text-align: center;
       top:145px;
       background-color:#2F483E;
@@ -81,7 +95,7 @@
       margin: auto;
       border: 2px solid #7e7e6b;
       font-family: 'Playfair Display', serif;
-      font-size: 25pt;
+      
      
       color: #D5D5CC;
     
@@ -95,23 +109,64 @@
     
     
   
+.index-subtitle{
 
+      font-family: 'Playfair Display', serif;
+        font-size: 25pt;
+        box-sizing: content-box;
+      
+        text-align: center !important;
+        
+       
+        
+       
+        background-color: #D5D5CC;
+        border: 1.5px solid #7e7e6b;
+        
+        color: #776338;
+       
+        position:absolute;
+        height: 50px;
+        width: 260px;
+        padding:  5px 5px 5px 10px; }
 
   
 .Plain{text-decoration: none;}
 
-.placing{
+#index-about-me{
   position: absolute;
-  top: 130px;}
+  margin-left: 5px;
+  margin-top: -90px;
+ }
 
-.subtitle{
-  font-family: 'Playfair Display', serif;
-  font-size: 29pt;
-  color: #845A6D;
+ #index-blogs{
+  position: absolute;
+  margin-left: 5px;
+  margin-top: -20px;
+ }
+
+
+
+
+
+
+
+.blog-subtitle{
+  position: absolute;
+  top: 130px;
+
+  
   box-sizing: content-box;
+  background-color:#e5e5e5;
+  height: 90px;
+  width: 300px;
+  padding: 5px 5px 5px 10px;
+  margin: auto;
+  border: 0.5px solid #845A6D;
+  
+}
 
-}  
-.Sprint{
+.blog-sprint{
 
   font-family: 'Playfair Display', serif;
   font-size: 15pt;
@@ -124,58 +179,264 @@
 
 }
 
+#top-home{
+ background-color:#e5e5e5;
+  border: 1.5px solid #7e7e6b;
+  width:900px;
+  right: -800px;
+
+  font-size: 20pt;
+  color: #776338;
+  padding: 5px 15px 5px 15px;
+  position: fixed;
+  z-index: 20;
+  
+  margin-top: 0px;
+ 
+  
+  
+  }
+ 
+#top-home:hover{
+ 
+  color:#42253B;
+  right: -810px;
+  
+}
+
+
+
+ 
+  
+
+    #blog-heading{
+      color: #D5D5CC;
+      position:static;
+      margin-left: 5px;
+     margin-top: 10px;
+      
+    width: 1000px;
+      
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 75px;
+      -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0a2a1d;
+     
+      background-color:#2F483E;
+      border: 1.5px solid #7e7e6b;
+      padding: 5px 50px 5px 50px ;
+     
+      
+    
+    }
+  
+   
+    
+    
+     
+   
+   
+ 
+ 
+  
+  
+   
+  #values-ethics:hover{color:#42253B;
+    left: 20px; top: 130px;}
+  
+  
+     
+     #space-place:hover{color:#42253B;
+      left: 410px; top: 130px;
+     }
+     #learning-plan:hover{color:#42253B;
+      left: 810px; top: 130px;
+     }
+     
+    
+  
+     
+     #Values-Ethics{
+    
+      text-align: center;
+      left: 10px;
+     }
+    
+    #space-place{
+      
+      text-align: center;
+     left: 400px;}
+      
+
+      
+  #learning-plan{
+  
+    text-align: center;
+   left: 800px;
+    margin: auto;
+   }
+  
+  
+   body{
+    background-color: #7e7e6b ;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #background{
+      z-index: -99999 !important;
+      
+     background-size: 100%;
+     
+     
+    
+    }
+  .subtitle{
+    font-family: 'Playfair Display', serif;
+    font-size: 22pt;
+    
+    text-align: center !important;
+    
+  
+  color: #776338;
+  
+  }  
+ 
+  
+  .main-text{font-family: 'Playfair Display', serif;
+    font-size: 16pt;
+    color: #2F483E;
+    
+    
+    text-align: center !important;
+    
+    font-style:italic;
+    
+   
+   
+    
+   
+   }
+
+
+
+
+    #blog-border{
+      top: 150px;
+     position: absolute;
+      margin-left: 90px ;
+      margin-right: 290px;
+      background-color: #D5D5CC;
+   
+      }
+
+      #bottom{font-family: 'Playfair Display', serif;font-size: 18pt;
+        color: #D5D5CC;
+        
+      
+      margin-top: 1600px;
+     
+      display:block;
+      position: relative;
+     text-align: right;
+      
+      }
+      
+  
+
+
 
 
 
 
   
+        
+
+
+
+
+      #Space-place-for-example{
+        box-sizing: content-box;
+      
+        
+        top:1010px;
+        text-align: center;
+        position: absolute;
+        font-family: 'Playfair Display', serif;
+        background-color:#e5e5e5;
+        border: 1.5px solid #7e7e6b;
+        padding: 5px 10px 5px 10px;
+        
+        left:50%;
+         
+        margin-left:-110px;
+        
+      
+      
+      }
+      
+              
+      
+            
+      
+      
+      #photo-code{
+        
+      display: block;
+      background:top;
+      
+      top:1090px;
+       
+        
+      width: 400px; height: auto;  
+         
+      position: absolute;
+      
+      right: 645px; 
+      
+       
+        }
+        #photo-example{
+          
+        display: block;
+        background:top;
+       
+        top:1090px;
+         
+          
+       width: 400px; height: 200px;  
+           
+      position: absolute;
+      
+      right: 240px; 
+        
+        
+         
+          }
+
  
- 
+  
+  
 
 
 
 
-
-
-
-  #about-me{
-    position: absolute;
-    text-align: center;
-    
-    background-color:#e5e5e5;
-    height: 50px;
-    width: 260px;
-    padding:  5px 5px 5px 10px;
-    margin-top: -90px;
-    border: 1px solid #7e7e6b;
-    font-family: 'Playfair Display', serif;
-    font-size: 25pt;
-    margin-left: 5px;
-    color: #776338;
-    
-  }
-
-  #blogs{
-    position: absolute;
-    text-align: center;
-   
-    background-color:#e5e5e5;
-    height: 50px;
-    width: 260px;
-    padding:  5px 5px 5px 10px;
-    
-    border: 1px solid #7e7e6b;
-    font-family: 'Playfair Display', serif;
-    font-size: 25pt;
-   
-   color: #776338;
-   margin-left: 5px;
-   margin-top: -15px;
-    
-  }
-  body{
-    background-color: #776338;}
-
-
+  
 
 
