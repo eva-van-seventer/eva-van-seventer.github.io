@@ -56,10 +56,11 @@
   display: block;
   background:top;
     
-    outline: #7e7e6b solid thick;
+    border: #7e7e6b solid thick;
      position: relative;
       width: 250px; height: auto;  
       border-radius: 150px; 
+  
       position: relative;
  margin-top: -100px;
  margin-right: 20px;
