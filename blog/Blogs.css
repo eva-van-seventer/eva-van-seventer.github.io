@@ -1,0 +1,214 @@
+
+
+  #heading{
+    color: #D5D5CC;
+    position: absolute;
+    top: -35px;
+    
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 75px;
+    -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #0a2a1d;
+   
+    background-color:#2F483E;
+    border: 1.5px solid #7e7e6b;
+    padding:5px 50px 5px 50px ;
+  
+  
+  
+  }
+
+  .Plain{text-decoration: none;}
+  .top{
+
+    background-color:#e5e5e5;
+    border: 1.5px solid #7e7e6b;
+    width:900px;
+    right: -800px;
+  
+    font-size: 20pt;
+    color: #845A6D;
+    padding: 5px 15px 5px 15px;
+    position: fixed;
+    z-index: 20;
+    margin: 0% !important;
+   
+    
+    
+    }
+  
+  
+  
+ 
+ 
+#about-me:hover{
+  left: 960px; top:210px;
+  color:#42253B;
+
+}
+#Home:hover{
+ 
+  color:#42253B;
+  right: -810px;
+}
+
+
+ 
+#Values-Ethics:hover{color:#42253B;
+  left: 20px; top: 130px;}
+
+
+   
+   #BLOG-POST-2:hover{color:#42253B;
+    left: 410px; top: 130px;
+   }
+   #BLOG-POST-3:hover{color:#42253B;
+    left: 810px; top: 130px;
+   }
+   #background{
+    z-index: -99999 !important;
+    
+   background-size: 100%;
+   background-repeat: no-repeat;
+   
+   
+    
+    
+  
+  }
+  
+
+   #photo{
+    margin: auto;
+  display: block;
+  background:top;
+    
+    outline: #7e7e6b solid thick;
+     position: relative;
+      width: 250px; height: auto;  
+      border-radius: 150px; 
+      position: relative;
+  top: -100px;
+  right: -500px;
+ 
+   
+    }
+    
+    
+    
+  
+
+
+  
+.Plain{text-decoration: none;}
+
+.placing{
+  position: absolute;
+  top: 120px;}
+
+.subtitle{
+  font-family: 'Playfair Display', serif;
+  font-size: 29pt;
+  color: #776338;
+  box-sizing: content-box;
+
+}  
+.Sprint{
+
+  font-family: 'Playfair Display', serif;
+  font-size: 15pt;
+  color: #222A30;
+  box-sizing: content-box;
+  font-style:italic;
+  text-align: center ;
+
+ 
+
+}
+
+
+
+
+
+
+#Values-Ethics{
+  
+  text-align: center;
+  left: 10px;
+  background-color:#e5e5e5;
+  height: 90px;
+  width: 300px;
+  padding: 5px 5px 5px 10px;
+  margin: auto;
+  border: 0.5px solid #845A6D;}
+
+#BLOG-POST-2{
+  
+  text-align: center;
+ left: 400px;
+  background-color:#e5e5e5;
+  height: 90px;
+  width: 300px;
+  padding:  5px 5px 5px 10px;
+  margin: auto;
+  border: 1.0px solid #7e7e6b;}
+  
+  
+ 
+ 
+
+
+
+
+
+#BLOG-POST-3{
+
+  text-align: center;
+ left: 800px;
+  margin: auto;
+  background-color:#e5e5e5;
+  height: 90px;
+  width: 300px;
+  padding: 5px 5px 5px 10px;
+ 
+  border: 1.0px solid #7e7e6b;}
+  
+
+  #about-me{
+    position: absolute;
+    text-align: center;
+    left: 980px; top:200px;
+    background-color:#e5e5e5;
+    height: 50px;
+    width: 260px;
+    padding:  5px 5px 5px 10px;
+    margin: auto;
+    border: 1px solid #7e7e6b;
+    font-family: 'Playfair Display', serif;
+    font-size: 25pt;
+   
+    color: #6b931c;
+    
+  }
+
+  #Home{
+    background-color:#e5e5e5;
+    border: 1.5px solid #7e7e6b;
+    width:900px;
+    right: -800px;
+   
+    font-size: 20pt;
+    color: #222A30;
+    padding: 5px 15px 5px 15px;
+    position: fixed;
+    z-index: 20;
+    margin: 0% !important;
+    
+  }
+  body{
+    background-color: #7e7e6b ;}
+
+
+
+

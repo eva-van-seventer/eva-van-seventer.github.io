@@ -1,0 +1,132 @@
+#heading{
+    color: #2F483E;
+    position: absolute;
+    
+    padding: 5px 30px 10px 30px;
+    top: 30px;
+    
+    
+    text-align: center !important;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #0a2a1d;
+   
+    background-color:#e5e5e5;
+    border: 1.5px solid #7e7e6b;
+    margin: auto;
+    margin-left: 90px ;
+
+    margin-right: 90px ;
+  
+  
+  }
+  .top:hover{
+ 
+    color:#42253B;
+    right: -810px;
+  }
+
+  #bottom{font-family: 'Playfair Display', serif;font-size: 18pt;
+    color: #e5e5e5;
+    
+  
+ top: 1500px;
+  margin: 0 auto;
+  display:block;
+  position: absolute;
+  right: 550px;
+  
+  
+  }
+  
+  
+  
+.Plain{text-decoration: none;}
+
+.subtitle{
+  text-align: center !important;
+  font-family: 'Playfair Display', serif;
+  font-size: 25pt;
+  color: #776338;
+  box-sizing: content-box;
+  background-color:#e5e5e5;
+ 
+  margin-right: 10px;
+ 
+  
+}  
+.Plain{text-decoration: none;}
+  .top{
+
+    background-color:#e5e5e5;
+    border: 1.5px solid #7e7e6b;
+    width:900px;
+    right: -800px;
+  
+    font-size: 20pt;
+    color: #776338;
+    padding: 5px 15px 5px 15px;
+    position: fixed;
+    z-index: 20;
+    margin: 0% !important;
+   
+    
+    
+    }
+  
+#bottom{font-family: 'Playfair Display', serif;font-size: 18pt;
+  color: #0a2a1d;
+  
+
+top:1800px ;
+margin: 0 auto;
+display:block;
+position: absolute;
+right: 550px;}
+
+.main-text{
+
+  font-family: 'Playfair Display', serif;
+  font-size: 18pt;
+  color: #2F483E;
+  box-sizing: content-box;
+  font-style:italic;
+
+
+}
+
+
+  #Ethics-values{
+    position: absolute;
+    
+    top: 150px;
+    margin-left: 90px ;
+
+    margin-right: 90px ;}
+
+
+
+   
+   
+  
+
+
+  #background{
+    z-index: -99999 !important;
+    
+    
+    
+  
+  }
+  #background{
+    z-index: -99999 !important;
+    
+   background-size: cover;
+   
+   
+   
+    
+    
+  
+  }

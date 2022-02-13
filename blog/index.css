@@ -1,0 +1,180 @@
+
+
+  #heading{
+    color:  #D5D5CC;
+    position: relative;
+    
+    
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 75px;
+    -webkit-text-stroke-width: 1.5px;
+-webkit-text-stroke-color: #222A30;
+   
+    background-color:#2F483E;
+    border: 1.5px solid #7e7e6b;
+  
+  
+  
+  }
+  
+  #Space-Place:hover{color:#42253B;
+    left: 32px; top:140px;
+
+
+
+}
+#about-me:hover{
+  margin-left: 30px;
+  color:#42253B;
+
+}
+#blogs:hover{
+  margin-left: 30px;
+  color:#42253B;}
+
+
+ 
+      
+#background{
+  z-index: -99999 !important;
+  
+ background-size: 100%;
+ background-repeat: no-repeat;
+ 
+ 
+  
+  
+
+}
+
+  
+  
+
+   #photo{
+    margin: auto;
+  display: block;
+  background:top;
+    
+    outline: #7e7e6b solid thick;
+     position: relative;
+      width: 250px; height: auto;  
+      border-radius: 150px; 
+      position: relative;
+ margin-top: -100px;
+ margin-right: 20px;
+ 
+   
+    }
+    .main-text{
+
+      
+      font-size: 18pt;
+      color: #845A6D;position: absolute;
+      text-align: center;
+      top:100px;
+      background-color:#2F483E;
+      height: 100px;
+      width: 950px;
+      padding:  5px 5px 5px 10px;
+      margin: auto;
+      border: 2px solid #7e7e6b;
+      font-family: 'Playfair Display', serif;
+      font-size: 25pt;
+     
+      color: #D5D5CC;
+    
+      
+      
+      
+      
+      }
+    
+    
+    
+    
+  
+
+
+  
+.Plain{text-decoration: none;}
+
+.placing{
+  position: absolute;
+  top: 130px;}
+
+.subtitle{
+  font-family: 'Playfair Display', serif;
+  font-size: 29pt;
+  color: #845A6D;
+  box-sizing: content-box;
+
+}  
+.Sprint{
+
+  font-family: 'Playfair Display', serif;
+  font-size: 15pt;
+  color: #42253B;
+  box-sizing: content-box;
+  font-style:italic;
+  text-align: center ;
+
+ 
+
+}
+
+
+
+
+
+  
+ 
+ 
+
+
+
+
+
+
+
+  #about-me{
+    position: absolute;
+    text-align: center;
+    
+    background-color:#e5e5e5;
+    height: 50px;
+    width: 260px;
+    padding:  5px 5px 5px 10px;
+    margin-top: -90px;
+    border: 1px solid #7e7e6b;
+    font-family: 'Playfair Display', serif;
+    font-size: 25pt;
+    margin-left: 5px;
+    color: #776338;
+    
+  }
+
+  #blogs{
+    position: absolute;
+    text-align: center;
+   
+    background-color:#e5e5e5;
+    height: 50px;
+    width: 260px;
+    padding:  5px 5px 5px 10px;
+    
+    border: 1px solid #7e7e6b;
+    font-family: 'Playfair Display', serif;
+    font-size: 25pt;
+   
+   color: #776338;
+   margin-left: 5px;
+   margin-top: -15px;
+    
+  }
+  body{
+    background-color: #776338;}
+
+
+
+
