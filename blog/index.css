@@ -54,6 +54,8 @@
   margin-left: 30px;
   color:#42253B;}
 
+   
+
 
  
       
@@ -253,7 +255,9 @@ left: 1000px;
      #learning-plan:hover{color:#42253B;
       left: 810px; top: 130px;
      }
-     
+     #emotional-intelligence:hover{color:#42253B;
+      left: 20px;
+     }
     
   
      
@@ -262,6 +266,12 @@ left: 1000px;
       text-align: center;
       left: 10px;
      }
+
+     #emotional-intelligence{ text-align: center;
+      left: 10px;
+    
+    
+    top: 280px;}
     
     #space-place{
       
