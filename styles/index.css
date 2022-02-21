@@ -20,6 +20,15 @@
   
   
   }
+
+
+
+
+  #brain{
+    border: #7e7e6b solid thick;
+width: 300px;
+    height: auto;
+  }
   #about-me-heading{
     color: #D5D5CC;
     position: absolute;
@@ -44,6 +53,12 @@
   
   #Space-Place:hover{color:#42253B;
     left: 32px; top:140px;
+
+
+
+}
+#mindset:hover{color:#42253B;
+  left: 810px; 
 
 
 
@@ -79,6 +94,7 @@ position: relative;
 margin-top: -100px;
 margin-right: 1000px;
 left: 1000px;
+opacity: 90%;
  
 }
 
@@ -88,7 +104,7 @@ left: 1000px;
     .index-main-text{
 
       
-      font-size: 18pt;
+      font-size: 20pt;
       
       position: absolute;
       text-align: center;
@@ -161,16 +177,38 @@ left: 1000px;
  }
 
  
- #java-content-container {
+ #blog-content-container {
   
-  display: flex;
-  
+ 
   justify-content:space-between;
   flex-direction: column;
   max-height: 2700px;
-  min-height: 2600px;
+  min-height: 900px;
  }
-
+ #index-content-container {
+  
+ 
+  justify-content:space-between;
+  flex-direction: column;
+  max-height: 2700px;
+  min-height: 700px;
+ }
+ #java-content-container {
+  
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+  max-height: 2700px;
+  min-height: 2800px;
+ }
+ #mindset-content-container {
+  
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+  max-height: 2700px;
+  min-height: 2300px;
+ }
  
  #plan-content-container {
   
@@ -179,7 +217,7 @@ left: 1000px;
   justify-content:space-between;
   flex-direction: column;
   max-height: 2700px;
-  min-height: 1800px;
+  min-height: 1900px;
  }
 
  #space-content-container {
@@ -189,7 +227,7 @@ left: 1000px;
   justify-content:space-between;
   flex-direction: column;
   max-height: 2700px;
-  min-height: 1600px;
+  min-height: 1700px;
  }
 
  #values-content-container {
@@ -199,7 +237,7 @@ left: 1000px;
   justify-content:space-between;
   flex-direction: column;
   max-height: 2700px;
-  min-height: 1900px;
+  min-height: 2000px;
  }
 
 
@@ -256,7 +294,29 @@ left: 1000px;
   
 }
 
+#credits{
 
+  font-family: 'Playfair Display', serif;
+  font-size: 18pt;
+  color: #D5D5CC;
+  
+  
+  text-align: center !important;
+  
+  font-style:italic;
+  
+  padding: 5px 15px 5px 15px;
+  position: relative;
+  -webkit-text-stroke-width: 0.3px;
+ 
+  -webkit-text-stroke-color: #222A30;
+  
+ margin: 0 auto;
+ bottom: -350px;
+  
+
+
+}
 
  
   
@@ -340,7 +400,10 @@ left: 1000px;
       text-align: center;
      left: 400px;}
       
-
+    #mindset{
+     text-align: center;
+     left: 800px;
+     top: 280px;}
       
   #learning-plan{
   
@@ -381,12 +444,23 @@ left: 1000px;
     }
   .subtitle{
     font-family: 'Playfair Display', serif;
-    font-size: 22pt;
+    font-size: 26pt;
     
     text-align: center !important;
     
   
   color: #776338;
+  
+  }  
+
+  .small-subtitle{
+    font-family: 'Playfair Display', serif;
+    font-size: 19pt;
+    
+    text-align: center !important;
+    
+  
+  color: #2F483E;
   
   }  
  
@@ -401,6 +475,21 @@ left: 1000px;
     font-style:italic;
     
    
+   
+    
+   
+   }
+
+   #list-text{font-family: 'Playfair Display', serif;
+    font-size: 16pt;
+    color: #2F483E;
+    
+    
+    
+    
+    font-style:italic;
+    
+   text-align: left !important;
    
     
    
