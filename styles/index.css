@@ -201,6 +201,17 @@ opacity: 90%;
   max-height: 2700px;
   min-height: 2800px;
  }
+
+
+ #problem-content-container{
+
+  
+ display: flex;
+ justify-content:space-between;
+ flex-direction: column;
+ max-height: 2700px;
+ min-height: 2200px;
+}
  #mindset-content-container {
   
   display: flex;
@@ -370,7 +381,8 @@ opacity: 90%;
      #JS:hover{color:#42253B;
       left: 410px;
      }
-    
+     #problem:hover{color:#42253B;
+      left: 20px;}
   
      
      #Values-Ethics{
@@ -411,7 +423,17 @@ opacity: 90%;
    left: 800px;
     margin: auto;
    }
-  
+
+   #problem { text-align: center;
+    left: 10px;
+    
+     margin: auto;
+      top: 430px;
+
+
+   }
+
+
   
    body{
     background-color: #7e7e6b ;}
