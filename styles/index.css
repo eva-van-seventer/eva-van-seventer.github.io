@@ -12,7 +12,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 75px;
     -webkit-text-stroke-width: 1.5px;
--webkit-text-stroke-color: #222A30;
+    -webkit-text-stroke-color: #222A30;
    
     background-color:#2F483E;
     border: 1.5px solid #7e7e6b;
@@ -63,6 +63,13 @@ left: 410px;
 }
 
 #mindset:hover{color:#42253B;
+  left: 810px; 
+
+
+
+}
+
+#bootcamp-learning-plan:hover{color:#42253B;
   left: 810px; 
 
 
@@ -175,6 +182,20 @@ opacity: 90%;
   max-height: 2700px;
   min-height: 1200px;
  }
+
+
+ #bootcamp-learning-plan-container {
+  
+  display: flex;
+  
+  justify-content:space-between;
+  flex-direction: column;
+  max-height: 2700px;
+  min-height: 1700px;
+ }
+
+
+ 
 
  #reflection-content-container {
   
@@ -443,6 +464,16 @@ opacity: 90%;
     text-align: center;
     margin: auto;
     left: 400px;
+    top: 430px;
+
+
+   }
+
+
+   #bootcamp-learning-plan {
+    text-align: center;
+    margin: auto;
+    left: 800px;
     top: 430px;
 
 
